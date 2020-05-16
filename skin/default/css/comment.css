@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+
+hr.comment_hr {
+	height: 1px;
+	border: none;
+	border-top: 1px dashed #dedede;
+	margin-bottom: 5px;
+}
+
+.comment_heading {
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 25px;
+	height: 25px;
+}
+
+.comment_form,.comment_list {
+	position:relative;
+	text-align: left;
+	margin: 15px;
+}
+
+.textarea_div {
+	width: 450px;
+	height: 140px;
+	position: relative;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.post_state {
+	position: absolute;
+	width: 180px;
+	height: 140px;
+	top: 10px;
+	right: -200px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #999999;
+	overflow: hidden;
+}
+
+.textarea_bg {
+	position: absolute;
+	width: 450px;
+	height: 140px;
+	background-image: url(../images/comment_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: alpha(opacity =  45);
+	-moz-opacity: 0.45;
+	opacity: 0.45;
+}
+
+#comment_content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 450px;
+	height: 140px;
+	padding: 2px;
+	border: 1px solid #dddddd;
+	font-size: 12px;
+	font-family: Helvetica;
+	background: transparent;
+}
+
+.button_div .button {
+	display:inline-block;
+	background-image: url(../images/reg_log_bg.png);
+	background-repeat: no-repeat;
+	background-position: 0px -405px;
+	color: #ffffff;
+	font-size: 14px;
+	height: 38px;
+	line-height: 38px;
+	width: 116px;
+	font-weight: bold;
+	cursor: pointer;
+	text-align:center;
+}
+
+.button_div input.text {
+	border: none;
+	border: 1px solid #dddddd;
+	height: 30px;
+	line-height: 30px;
+	padding-left:2px;
+	width: 80px;
+	font:14px "Tahoma","Helvetica","Arial",sans-serif;
+	_font-weight: bold;
+	_font-size: 14px;
+	_height: 25px;
+	_line-height: 25px;	
+}
+
+.button_div input.error {
+	border-color: red;
+}
+
+.comment_list_body {
+	margin: 10px;
+}
+.comment_list .pagination {
+	position:absolute;
+	top:-25px;
+	right:20px;
+    margin-top: 20px;
+	margin-left: 50px;
+}
+	
+.comment_entry {
+	padding-top: 6px;
+	padding-right: 20px;
+	padding-left: 10px;	
+	border-bottom: 1px dotted #afafb0;
+	_border: 1px dotted #afafb0;
+	_margin-bottom:10px;
+}
+
+.comment_entry .entry_title span {
+	margin-right: 10px;
+}
+
+.comment_entry .reply_comment {
+    cursor:pointer;
+    text-decoration:underline;
+    color:#999999;
+}
+
+.comment_entry .entry_body {
+	font-size: 14px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left:6px;
+	line-height:20px;	
+}
+
+.comment_parent { 
+	margin:10px;
+    border: 1px solid #afafb0;
+    padding:10px;
+    background-color:#efefef;
+}
+
+#comment_captcha_img {
+	cursor: pointer;
+}
+.captcha_div {
+	position: relative;
+	display: inline-block;
+	width: 90px;
+	margin-right: 30px;
+}

@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+#lostpass_sidebar {
+	float: right;
+	width: 238px;
+	padding:0px;
+	border:none;
+	margin-bottom:0px;
+}
+
+#lostpass_mainbar {
+   float: right;
+   width: 722px;
+   padding:0px;
+   margin-right:10px;
+   border:none;
+}
+
+.form_heading {
+	margin-bottom: 20px;
+	text-align:left; 
+	border-bottom:1px dashed #BED9EB; 	
+	position:relative; 
+	line-height:40px;
+	height: 40px;
+}
+
+.form_heading .title {
+    font-size:20px;
+	font-weight:bolder;	 
+	margin-right:20px;
+}
+
+.form_heading .hint {
+	position:absolute;
+	right:20px;
+	bottom:-30px;
+	font-size:14px;	
+	line-height:20px;
+	height: 20px;
+}
+
+.lostpass_form {
+	position: relative;
+	margin-top:30px;
+}
+
+
+.lostpass_form .captcha_dd {
+	height: 100px;
+	width: 200px;
+	text-align: left;
+	cursor: pointer;
+	padding-left:10px;
+}
+
+.captcha_div .captcha_hint {	
+	text-align: left;
+	cursor: auto;
+}
+
+.lostpass_form input {
+	width: 150px;
+	height: 19px;
+	line-height: 22px;
+	padding: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #d5d8d1;
+	font-size: 12px;
+	font-family: Helvetica;
+}
+
+.lostpass_form input.error {	
+	border: 1px solid red;
+}
+
+.lostpass_form input.shorter {
+	width: 75px;
+}
+
+.lostpass_form dl {
+	clear: both; 
+	height: 35px;
+	line-height: 35px;
+}
+
+.lostpass_form dt,.lostpass_form dd {
+	float: left;	
+	margin-bottom: 10px; 
+	position: relative;
+	height: 25px;
+	line-height: 25px;
+}
+
+.lostpass_form dl dt {
+	width: 150px;
+	text-align: right;
+}
+
+.lostpass_form dl .button {
+	border: none;
+	background-image: url(../images/button_w100h25.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffffff;
+	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
+	width: 100px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#ajax_loading {
+	display:inline-block;
+	margin-left:10px;
+    height:30px;
+    width:30px;
+    background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ajax_loading {
+	background-image: url(../images/busy.gif);
+}

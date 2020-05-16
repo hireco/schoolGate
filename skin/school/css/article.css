@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+
+#mainbar {
+	float: right;
+	width: 700px;
+	margin-left: 10px;
+}
+
+#sidebar {
+	float: right;
+	width: 238px;
+	padding:0px;
+	border:none;
+	margin-bottom:0px;
+}
+
+#article_poster {	
+	background-image: url(../images/article_poster.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    margin-bottom:10px;
+    border:1px solid #dedede;
+    height:60px;
+}
+
+#article_poster a {
+    display:block;
+    text-indent:-400px;
+    width:216px;
+    height:40px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+#mainbar .infors {
+	line-height: 34px;
+	text-align: center;
+}
+
+#mainbar .infors span,#mainbar .entry_parameters span {
+	margin-right: 5px;
+	color: #999999;
+}
+
+#mainbar .entry_use {
+	text-align: right;
+	margin: 15px;
+}
+
+#mainbar .entry_use span {
+	margin-right: 5px;
+	cursor:pointer;
+}
+
+#mainbar .title {
+	font-size: 22px;
+	line-height: 46px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#mainbar .content {
+	text-align: left;
+	margin: 15px;
+	width:670px;
+	overflow:hidden;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.content * { 
+    vertical-align: baseline;
+}
+.content table {
+    border-color: #efefef
+}
+.content td {
+	padding:5px;
+	text-align:left;
+}
+
+#mainbar .content a {
+	text-decoration:underline;
+	color:blue;
+}
+
+#mainbar .content img {
+    vertical-align:middle;
+    margin:10px auto;
+}
+
+#mainbar .relate_list,#mainbar .entry_parameters {
+	text-align: left;
+	margin: 15px;
+}
+
+.relate_list .heading {
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 25px;
+	height: 25px;
+}
+
+#mainbar hr,.float_pannel hr {
+	height: 1px;
+	border: none;
+	border-top: 1px dashed #dedede;
+	margin-bottom: 5px;
+}
+
+.relate_list li {
+    height: 20px;
+	line-height: 20px;
+}
+
+.relate_list .list_body_ajax {
+	background-image: url(../images/ajax_loader.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+}
+
+.relate_list .list_body li a {
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	color: blue;
+	text-decoration: underline;
+}
+
+.page_navigation a {
+	display: inline-block;
+	padding-left:3px;
+	padding-right:3px;
+	height: 18px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 18px;
+	border: 1px solid #666666;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.page_navigation a.current {
+	background-color: #666666;
+	color: #ffffff;
+}
+
+.page_navigation a:hover {
+	background-color: #666666;
+	color: #ffffff;
+}

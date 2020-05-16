@@ -1,0 +1,232 @@
+@CHARSET "UTF-8";
+
+/* 主要区块分割*/
+#scroll_div {
+    margin:0 auto;
+    padding:0px;
+	border:none;
+	width:970px;
+	height:250px;
+	position:relative;
+}
+
+#news_column {
+    float:left;
+	padding:0px;
+	border:none;
+	width:325px;
+	margin:10px 10px 0 0;
+}
+
+#center_column {
+    float:left;
+    width:405px;    
+	border:none;
+	padding:0px;
+	margin:10px 10px 0 0;	
+    text-align:left;
+}
+
+#links_column {
+	float:left;
+	padding:0px;
+    border:none;    
+    width:220px;
+	margin:10px 0 0 0;
+}
+
+.column_panel{
+	margin-bottom:10px;
+}
+
+/* 新闻列表风格设置 */
+.news_header {
+    background-image:url(../images/list_top.jpg);
+	background-repeat:repeat-x;
+	height:37px;
+	position:relative;
+	z-index:0;
+}
+
+.news_header .news_lefttop {
+    position:absolute;
+	left:0;
+    background-image:url(../images/list_lefttop.jpg);
+	background-repeat:no-repeat;
+	width:100px;
+	height:37px;
+	z-index:1;
+}
+
+.news_header .header_title{
+     position:relative;
+	 float:left;     
+	 width:87px;
+	 height:37px;
+     line-height: 37px;
+     z-index:2;	 
+}
+
+.news_header .header_title a {
+    display:block;
+	width:87px;
+	height:37px;
+	text-align:center;
+	line-height:37px;
+    color: #155E27;
+    font-size: 12px;
+}
+
+.news_header .current {
+     background-image:url(../images/list_current.jpg);
+	 background-repeat:no-repeat;
+}
+
+.news_header .current a{     
+     font-weight: bold;	 
+}
+
+.news_righttop {
+    float:right;
+    background-image:url(../images/list_righttop.jpg);
+	background-repeat:no-repeat;
+	width:7px;
+	height:37px;
+	position:relative;
+}
+
+.more_items {
+    position:absolute;
+	display:block; 
+	right:10px;
+	top:13px;
+	_top:12px;
+	height:11px;
+	_height:13px;
+	width:34px;
+	cursor:pointer;	 
+	background-image:url(../images/more.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-indent:-100px;
+	overflow:hidden;
+}
+
+.news_list {
+    border-left:1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF; 
+	padding:10px; 
+	height:182px;
+}
+
+.news_bottom {
+   	 background-image:  url(../images/list_bottom.jpg);
+	 background-repeat: repeat-x;
+	 background-position: bottom;
+     height:4px;
+	 _line-height: 4px;
+	 font-size:0px;
+}
+
+.news_leftbottom {
+     float:left;
+     background-image:url(../images/list_leftbottom.jpg);
+	 background-repeat:no-repeat;
+	 width:4px;
+	 height:4px;
+	 _line-height: 4px;
+	 font-size:0px;
+}
+
+.news_rightbottom {
+     float:right;
+     background-image:url(../images/list_rightbottom.jpg);
+	 background-repeat:no-repeat;
+	 width:4px;
+	 height:4px;
+	 _line-height: 4px;
+	 font-size:0px;
+}
+
+/* 列表条目的风格*/
+
+.news_list .entry {    
+    line-height:25px;
+    height:25px;
+    position:relative;
+    text-align:left;
+	border-bottom:1px dotted #cecece;	
+}
+
+.news_list .entry a {
+   display:inline-block;  
+   height:25px;
+   line-height:25px; 
+   vertical-align:middle;	
+   overflow:hidden;	
+   position:absolute;
+   left:0px;
+}
+
+.news_list .entry_time {
+   color:gray;
+   display:inline-block;
+   width:40px;
+   height:25px;
+   line-height:25px;
+   vertical-align:middle;
+   text-align:right;
+   position:absolute;
+   right:0px;
+}
+
+#center_column .news_list .entry a {   
+   width:340px;	
+}
+
+#news_column .news_list .entry a {   
+   width:265px;	
+}
+
+.select_links {
+   	width:220px;
+	text-align:left;
+	position:relative;
+}
+
+.select_links dt {
+   text-indent:20px;
+   font-weight:bold;
+   display:block;
+   height: 30px;
+   line-height:30px;
+   overflow: hidden;
+   cursor: pointer;
+   background-image: url(../images/select_bg.gif);
+   background-repeat:no-repeat;
+}
+
+.select_links dd {
+   border: 1px solid #ccc;
+   border-top:none;
+   z-index:100;
+   background-color:#fff;
+   position:absolute;
+   top:30px;
+   width:218px;
+}
+
+.select_links a{
+   display:block;
+   text-indent:20px;    
+   height:25px;
+   line-height:25px;
+   overflow-x: hidden;
+   overflow-y: auto;  
+   color:#000;
+}
+
+.select_links a:hover{
+   background-color:#D8E5D1;
+   color:#000;
+}

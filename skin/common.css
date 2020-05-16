@@ -1,0 +1,294 @@
+@CHARSET "UTF-8";
+.hide {
+	display: none;
+}
+
+/*-----------未开js提示信息----------*/
+div#noscript_hint {
+	position: absolute;
+	left: 50%;
+	width: 400px;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -100px;
+	background-color: #FA8;
+	color: yellow;
+	font-weight:bold;
+	font-size:16px;
+	padding: 20px;
+	border: 5px solid #DDDDDD;
+	z-index: 99999;
+	text-align: center;
+}
+
+div.blocking {
+	Z-INDEX: 9999;
+	LEFT: 0px;
+	WIDTH: 100%;
+	HEIGHT:1000px;
+	POSITION: absolute;
+	TOP: 0px;
+	BACKGROUND-COLOR: #eee;
+	opacity: 0.7
+}
+
+.not_found {
+	position:relative;
+	clear:both;
+    background-image: url(images/not_found.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height:199px;
+	width:100%;
+}
+.not_found .hint {
+    position:absolute;
+    bottom:-20px;
+    left:0px;
+    right:0px;
+    width:100%;
+    text-align:center;
+    font-size:15px;
+    font-weight:bold;
+    color:gray;
+}
+
+/*--------------访问出错信息------------*/
+
+#show_msg {
+	border: #dedede 1px solid;
+	background-color: #fff;
+	padding-left:110px;
+	padding-top:30px;
+	background-image: url(images/404_logo.jpg);
+	background-repeat:no-repeat;
+	background-position:left center;
+	height:120px;
+	width:500px;
+	margin:40px auto auto 40px;
+}
+
+#show_msg h1 {
+	font-weight: normal;
+	font-size: 15px;
+	line-height:25px;
+	height:25px;
+	font-weight:bold;
+	color: #990000;
+	margin: 0 0 10px 0;
+}
+
+#show_msg p {
+    font-size: 13px;
+}
+
+/*-------------悬浮窗口------------*/
+div.message_top {
+	position: absolute;
+	left: 50%; 	
+	top: 50px;	
+	background-color: #F5DEB3;
+	color: #FF8247;
+	border: 5px solid #C4C4C4;
+	z-index: 100000;	
+	cursor:move;	
+	padding: 5px 10px 5px 5px;
+	height:24px;
+}
+
+.message_top .icon {
+    float:left;
+	background-position:left center;
+	background-repeat:no-repeat;
+	height:24px;
+	width:24px;
+	margin-right:10px;
+}
+
+.message_top .hint_text {
+    float:left;
+    font-size: 14px;
+	font-weight: bold;
+	height:24px;
+	line-height:24px;
+}
+
+.message_top .error {
+    background-image: url(images/error_24.png);
+}
+
+.message_top .okay {
+    background-image: url(images/cong_24.png);
+}
+
+.message_top .warn {
+    background-image: url(images/warn_24.png);
+}
+
+.message_top .fail {
+    background-image: url(images/fail_24.png);
+}
+
+.message_top .rt_corner	{
+    position:absolute;
+	right:-8px;
+	top:-8px;
+	width:16px;
+	height:16px;
+	background-image: url(images/close.png);
+	cursor:pointer;
+}
+
+div.message_top {
+	_position: absolute;
+	_top: expression(150 +((   e =   document.documentElement.scrollTop) ?  e : document.body.scrollTop ) +   'px' );
+}
+
+.float_pannel {
+	position: fixed;
+	z-index: 1001; /* remember, in blockUI, z-index of index is 1000 */
+	top: 150px;
+	border: 10px solid #dedede;
+	padding: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: #ffffff;
+}
+
+.float_pannel {
+	_position: absolute;
+	_top: expression(150 +((   e =   document.documentElement.scrollTop) ?  e : document.body.scrollTop ) +   'px' );
+}
+
+.float_pannel .closer {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 16px;
+	height: 16px;
+	background-image: url(images/closer.jpg);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.simple_dialog {
+	cursor: pointer;
+	position: absolute;
+	z-index: 1002;
+	border: 1px solid #69A033;
+	border-top: 20px solid #69A033;
+	padding: 10px;
+	background-color: #E3EFAD;
+}
+
+.simple_dialog div.closer {
+	position: absolute;
+	cursor: pointer;
+	top: -15px;
+	_top: -18px;
+	right: 5px;
+	width: 9px;
+	height: 9px;
+	background-image: url(images/simple_close.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.simple_dialog li {
+	margin: 3px;
+	padding: 2px;
+	border-bottom: 1px dashed #dedede;
+	color: #333333;
+	line-height: 16px;
+	height: 16px;
+}
+
+.simple_dialog span {
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	line-height: 22px;
+	margin-bottom: 5px;
+}
+
+.invalid_hint {
+	z-index: 100;
+	position: absolute;
+	top: 150px;
+	border: 5px solid #dedede;
+	padding: 10px;
+	background-color: red;
+	color: yellow;
+}
+
+div.block_msg {
+    line-height:30px;
+    height:30px;
+    text-align:center;
+    background-image: url(images/busy.gif);
+    background-repeat:no-repeat;
+    background-position:30px center;
+}
+
+/*----------导航------------*/
+.page_navi {
+	padding-left: 20px;
+	padding-top: 10px;
+	height: 20px;
+	line-height:20px;
+}
+
+.page_navi a, .page_navi span{
+    line-height:20px;
+    height:20px;
+	vertical-align:baseline;
+}
+
+/*------------表单提示---------------*/
+.form_error,.form_ok {
+	position: absolute;
+	right: -20px;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-image: url(images/error.png);
+	background-position: center;
+	width: 16px;
+	height: 25px;
+	line-height: 25px;
+}
+
+.form_ok {
+	background-image: url(images/ok.png);
+}
+
+/*------------杂项-----------*/
+.wait_loading {
+	position: absolute;
+	z-index: 1002;
+	background:transparent;
+	height:16px;
+	width:16px;
+	background-image: url(images/img_loader.gif);
+}
+
+.hot {
+	display:inline-block;
+	width:28px;
+	height:inherit;
+	background-position: center;
+	background-image: url(images/hot.gif);
+	background-repeat: no-repeat;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.isnew {
+	display:inline-block;
+	width:28px;
+	height:inherit;
+	background-position: center;
+	background-image: url(images/new.gif);
+	background-repeat: no-repeat;
+	margin-left:5px;
+	margin-right:5px;
+}

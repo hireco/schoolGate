@@ -1,0 +1,104 @@
+.cont_tit h1{ width:994px; height:30px; background:url(../images/site_bg.gif) no-repeat center bottom #fff; line-height:30px; margin-bottom:15px; padding:0 3px; font-weight:normal;}
+.c_content_right{ float:left; width:230px; font-family:'Microsoft YaHei';}
+.c_content_right h2{ width:230px;height:42px; background:url(../images/list_tit_bj.jpg); line-height:42px; color:#fff; font-size:16px; text-align:center; border-top-left-radius:5px; border-top-right-radius:5px;}
+.form_on{ width:208px; height:26px; margin:23px;}
+.footer{ border-top:3px solid #041646; background:url(../images/foot_bg.png) no-repeat; height:73px;}
+.footer p{ text-align:center; line-height:25px; margin-top:15px;}
+
+.box1{ float:left; width:220px; margin-bottom:10px; display:inline;}
+.box1 h1{ background:url(../images/box1_h1bg.png) no-repeat; line-height:30px; color:#FFFFFF; font-size:14px; font-weight:bold;  padding-left:15px; height:30px; text-align:left; } 
+.box1 .content3{ width:228px; float:left; padding:5px 0px; border:1px solid #eee;}
+.box1 .content3 ul{ margin:0px; padding:0px;}
+.box1 .content3 ul li{ width:220px;}
+.box1 .content3 ul li a{ width:200px; display:block; text-align:center; line-height:35px; font-size:14px; margin:5px 0px 6px 10px; background:#fff; border:1px solid #eee;}
+.box1 .content3 ul li a:hover{ background:#f1f1f1;}
+.box1 .content3 ul li .menu_con{ display:block;}
+.box1 .content3 ul li .menu_con p a{ height:30px; display:block; text-align:center; line-height:33px; font-size:12px; border:0 none; color:#666;}
+.box1 .content3 ul li .menu_con p a:hover{ color:#02549d;}
+/*box5*/
+.box5{ width:754px; float:right; display:inline; border:1px solid #eee;}
+.box5 h1{ background:url(../images/index_ico01.jpg) 8px no-repeat; padding-left:16px; height:40px; line-height:40px; color:#165EB1; font-size:16px; border-bottom:#2B95D4 solid 1px;font-family:'Microsoft YaHei';}
+.box5 h2{ background:url(../images/box5_h2bg.jpg) no-repeat; height:10px;}
+.box5 .content1{ width:720px; padding:10px; float:left;}
+.box5 .content1 .title{ font-size:14px; padding:8px 10px;  background-color:#eee; color:#0069B7; margin-bottom:5px;}
+.box5 .content1 .name{font-size:14px; line-height:35px;}
+.box5 .content1 .name a{ padding:0 10px;}
+.txt_info{ padding:10px;}
+.txt_info .tit{ font-size:20px; font-family: 微软雅黑, Arial, Helvetica, sans-serif; text-align:center;}
+.txt_info .date{font-size:12px; line-height:200%; text-align:center; border-bottom:#CCC dashed 1px; padding:5px;}
+.txt_info .info{ line-height:28px; padding:10px 0; color:#666;}
+.txt_info p{ line-height:30px;}
+
+.news_list{ width:100%;}
+.news_list li{ float:left; width:720px; line-height:18px; padding:12px 5px; border-bottom:#CCC dotted 1px;}
+.news_list li .date{ float:right;}
+.news_list li a{ color:#333; float:left; font-size:14px;}
+.news_list li a:hover{ color:#FF3300}
+.news_list li i{ width:7px; height:7px; background:url(../images/index_ico04.jpg) no-repeat; display:block; float:left; margin-right:8px; margin-top:5px;}
+.yq_box{ padding:15px 0px 0px 15px;}
+.yq_box li{ width:173px; float:left; height:170px; line-height:26px; text-align:center;}
+.yq_box li img{ width:150px; height:120px; border:#CCC solid 1px; padding:2px;}
+.txt_box{ padding:10px;}
+.txt_box p{ line-height:26px; text-indent:2em;}
+
+
+.news_list2{ padding:10px;}
+.news_list2 .content2 .title{ font-size:14px; padding:10px;  background-color:#EEF5FB;}
+.news_list2 .content2{width:680px; padding:5px;  float:left; }
+.news_list2 .content2 ul{ margin:0px; padding:0px;}
+.news_list2 .content2 ul li{ float:left; width:560px; text-align:left; line-height:32px; color:#888;  padding-left:10px; border-bottom:#CCC dashed 1px; font-size:14px;}
+.news_list2 .content2 ul li span{ float:right; font-size:12px; color:#999}
+
+.team_list{ padding:0px;}
+.team_list .content2{width:680px; padding:5px;  float:left; }
+.team_list .content2 .info{ text-align:left; padding:15px; line-height:180%; font-size:14px; border-bottom:#CCC dashed 1px;}
+
+.team_box{ padding:0px; height:120px; height:160px;}
+.team_box .p{ float:left; width:180px;}
+.team_box .p img{ width:162px; height:128px; border:#DEDEDE solid 1px; padding:2px;}
+.team_box .t{ float:left; width:500px;}
+.team_box .t .name{ font-size:14px; line-height:180%; color:#406EAD; font-weight:bold; display:block;}
+.team_box .t .name a{color:#406EAD;}
+.team_box .t .name a:hover{color: #F60;}
+.team_box .t .note { font-size:14px; line-height:180%; color:#636363;}
+.team_box .t .note a{color:#406EAD; padding-left:10px;}
+.team_box .t .note a:hover{color: #F60;}
+
+.team_look{ width:700px; padding:10px; font-size:14px;}
+.team_look dl dt{ float:left; width:164px; height:230px; margin-right:10px;}
+.team_look dl dd{ float:left; width:500px; line-height:32px;}
+.team_look dl dd.name{ font-size:14px; font-weight:bold;}
+.sys_accordion .line { border-bottom: 1px dashed #ccc;display: inline; height: auto; margin: 0; width: 710px; float:left; padding:0 10px;}
+.sys_accordion .line h2{ height:35px; line-height:35px;}
+.sys_accordion .line .jia{ display:block; background: url(../images/u.jpg) no-repeat right;cursor: pointer;}
+.sys_accordion .line .jian { display:block; background: url(../images/d.jpg) no-repeat right; cursor: pointer;}
+.sys_accordion .line p{ text-indent:2em; line-height:22px;}
+
+.team_tit{ background:#eee; font-size:15px; color:#0069B7; margin-top:10px;}
+
+
+/*CSS sabrosus style pagination*/
+
+DIV.sabrosus { float:right; height:20px;
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; MARGIN: 3px; PADDING-TOP: 10px; TEXT-ALIGN: center; font-size:12px;
+}
+DIV.sabrosus A {
+	BORDER-RIGHT: #9aafe5 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #9aafe5 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #9aafe5 1px solid; COLOR: #2e6ab1; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #9aafe5 1px solid; TEXT-DECORATION: none
+}
+DIV.sabrosus A:hover {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.pagination A:active {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.sabrosus SPAN.current {
+	BORDER-RIGHT: navy 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: navy 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: navy 1px solid; COLOR: #fff; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: navy 1px solid; BACKGROUND-COLOR: #2e6ab1
+}
+DIV.sabrosus SPAN.disabled {
+	BORDER-RIGHT: #929292 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #929292 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #929292 1px solid; COLOR: #929292; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #929292 1px solid
+}
+
+
+.KSS_titleBox{ line-height:32px; height:32px;}
+#showTab a{ display:inline-block; padding: 5px 10px;}
+#Span2 a{ display:inline-block; padding: 5px; width:60px;}

@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+#list_left {
+    float: left;
+	width: 700px;	
+	margin-bottom:10px;
+}
+#list_right {
+	float: left;
+	width: 238px;
+	margin-right:10px;
+	margin-bottom:10px;
+	border-width:0px;
+	padding:0px;
+}
+
+.no_record {
+    height:30px;
+	line-height:30px;
+	vertical-align:middle;
+}
+
+.part_header {
+	font-size:1.3em;
+	font-weight:bold;
+	color:#30329A;
+	text-align:left;
+	padding:5px;
+	border-bottom:1px dashed #BED9EB;
+	margin-bottom:10px;
+}
+
+.part_body {
+    padding:0px 20px 10px 20px;
+}
+
+.entry_list {
+    padding:2px;
+    margin-bottom:10px;
+    text-align:left;
+    border-bottom: 1px dotted #BED9EB; 
+}
+
+.entry_list span {
+    margin-right:5px;
+    line-height:18px;
+    height:18px;
+}
+
+.authors {
+    color:gray;
+}
+
+.title {
+    font-style:italic;
+    font-weight:bold;
+}
+
+.journal, .meeting,.publisher {
+    color:brown;
+}
+
+.file a {
+    display:inline-block;
+    padding-left:20px;
+    background-position:left center;
+    background-repeat:no-repeat;
+}

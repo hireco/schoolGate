@@ -1,0 +1,253 @@
+@CHARSET "UTF-8";
+#article_list_left {
+    float: left;
+	width: 722px;
+	border:none;
+	padding:0px;
+	margin-right:10px;
+	margin-bottom:0px;
+	_margin-bottom:10px;
+}
+#article_list_right {
+	float: left;
+	width: 238px;
+	padding:0px;
+	border:none;
+	margin-bottom:0px;
+}
+
+#article_list_left .entry_list {
+	float: left;
+	width: 416px;
+	height:214px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:left;
+	border:1px solid #AACCEE;
+	margin-bottom:10px;
+}
+
+.entry_list .entry {
+    margin-left:10px;
+    line-height:20px;
+    height:20px;
+}
+
+.entry_list .entry a {
+   display:inline-block;  
+   height:20px;
+   line-height:20px; 
+   vertical-align:middle;	
+   overflow:hidden;
+}
+
+a.entry_class {  
+   font-weight:bold;
+}
+a.entry_self {  
+   width:250px;
+}
+
+.entry_time {
+   color:gray;
+   display:inline-block;
+   width:80px;
+   height:20px;
+   line-height:20px;
+   vertical-align:middle;
+   text-align:right;
+}
+
+.class_list {
+   float:left;
+   width:354px;
+   border:1px solid #AACCEE;
+   border-top:none;
+   margin:0px 0px 10px 5px;
+}
+
+.list_even {
+   margin:0px 5px 10px 0px;
+}
+
+.class_list hr {
+   height:1px;
+   border:none;
+   margin-right:5px; 
+   margin-left:5px; 
+   border-top:1px dashed #dedede;
+}
+.class_list .class_head {
+   position:relative;	
+   height:31px;
+   background-position:center 1px;
+   background-image:url(../images/right_bg02.gif);
+}
+.class_head  .class_title{
+   position:absolute;
+   left:10px;
+   bottom:0px;
+   height:30px;
+   line-height:30px;
+   display:block;   
+   background-color:#ffffff;
+   padding-left:10px;
+   padding-right:10px;
+   border:1px solid #AACCEE;
+   border-bottom:none;
+   font-size:13px;
+   font-weight:bold;
+}
+.class_head  .entry_more{
+   display:block;
+   position:absolute;
+   right:10px;
+   bottom:3px;
+   height:25px;
+   line-height:25px;
+}
+
+.class_list .class_body {
+   padding:10px;
+   text-align:left;
+}
+.class_body  li.list_entry {
+   position:relative;
+   list-style:disc inside;
+}
+
+.list_entry .entry_time {
+   right:0px;
+   _right:10px;
+   top:0px;
+   line-height:20px;
+   height:20px;
+   width:60px;
+   margin-left:10px;
+}			
+
+.list_entry a {
+   display:inline-block;
+   line-height:20px;
+   height:20px;
+   width:244px;
+   overflow:hidden;
+}
+#body_with_image {
+   height:84px;
+}
+.class_body .icon_image_div {
+  float:left; 
+  margin-right:10px;
+  padding:2px;
+  border:1px solid #dedede;
+  width:100px;
+  height:78px;
+  overflow:hidden;
+}
+.class_body .icon_image {
+  height:78px;
+  width:100px;
+  overflow:hidden;
+  background-color:#000000;
+  background-image: url(../images/img_loader.gif);
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.class_body .icon_image img{
+  height:78px;
+  display:block;
+  margin:0 auto;
+}
+
+.rescale img {
+  width:100px;
+}
+
+.class_body .icon_entry {
+  float:left;
+}
+
+.class_body .icon_entry .title {
+  font-weight:bold;
+  line-height:20px;
+  height:20px;
+  width:210px;
+  overflow:hidden; 
+  margin-bottom:5px;
+}
+
+.class_body .icon_entry .abstract a{
+  line-height:16px;
+  display:block;
+  height:64px;
+  width:210px;
+  overflow:hidden;
+}
+.icon_entry .abstract a:hover {
+  text-decoration:underline;
+}
+
+#album {
+	position: relative; 
+	float: left;
+	margin-right: 10px;
+	width : 278px; 
+	height : 220px;
+	border: 8px solid #8080C0;
+	margin-bottom:10px;
+}
+
+#album ul,#album li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#album ul {
+	position: relative;
+	height: 220px;
+	width: 278px;
+	overflow: hidden;
+}
+
+#album li {
+	position: absolute;
+	left:0px;
+	width: 1000%;
+}
+
+#album a {
+	float: left;
+}
+
+#album img {
+	display: block;
+	border: 0;
+}
+
+#album span {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+
+#album span a {
+	display: block;
+	margin-right: 10px;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: gray;
+	background: transparent
+		url(../images/o_button.gif)
+		no-repeat -15px 0;
+}
+
+#album span a:hover,#album span a.hover {
+	color: #F8F8F8;
+	background-position: 0 0;
+}

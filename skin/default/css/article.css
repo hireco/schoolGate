@@ -1,0 +1,153 @@
+@CHARSET "UTF-8";
+
+#cms_left {
+	float: right;
+	width: 700px;
+	margin-left: 10px;
+}
+
+#cms_right {
+	float: right;
+	width: 238px;
+	padding:0px;
+	border:none;
+	margin-bottom:0px;
+}
+
+#article_poster {	
+	background-image: url(../images/article_poster.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    margin-bottom:10px;
+    border:1px solid #dedede;
+    height:60px;
+}
+
+#article_poster a {
+    display:block;
+    text-indent:-400px;
+    width:216px;
+    height:40px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+#cms_left .infors {
+	line-height: 34px;
+	text-align: center;
+}
+
+#cms_left .infors span,#cms_left .entry_parameters span {
+	margin-right: 5px;
+	color: #999999;
+}
+
+#cms_left .entry_use {
+	text-align: right;
+	margin: 15px;
+}
+
+#cms_left .entry_use span {
+	margin-right: 5px;
+	cursor:pointer;
+}
+
+#cms_left .title {
+	font-size: 22px;
+	line-height: 46px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#cms_left .content {
+	text-align: left;
+	margin: 15px;
+	width:670px;
+	overflow:hidden;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.content *{
+	vertical-align:baseline;
+}
+
+.content table {
+    border-color: #efefef
+}
+.content td {
+	padding:5px;
+	text-align:left;
+}
+
+#cms_left .content a {
+	text-decoration:underline;
+	color:blue;
+}
+
+#cms_left .content img {
+	vertical-align:middle;
+    margin:10px auto;
+}
+
+#cms_left .relate_list,#cms_left .entry_parameters {
+	text-align: left;
+	margin: 15px;
+}
+
+.relate_list .heading {
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 25px;
+	height: 25px;
+}
+
+#cms_left hr,.float_pannel hr {
+	height: 1px;
+	border: none;
+	border-top: 1px dashed #dedede;
+	margin-bottom: 5px;
+}
+
+.relate_list li {
+    height: 20px;
+	line-height: 20px;
+}
+
+.relate_list .list_body_ajax {
+	background-image: url(../images/ajax_loader.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+}
+
+.relate_list .list_body li a {
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	color: blue;
+	text-decoration: underline;
+}
+
+.page_navigation a {
+	display: inline-block;
+	padding-left:3px;
+	padding-right:3px;
+	height: 18px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 18px;
+	border: 1px solid #666666;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.page_navigation a.current {
+	background-color: #666666;
+	color: #ffffff;
+}
+
+.page_navigation a:hover {
+	background-color: #666666;
+	color: #ffffff;
+}

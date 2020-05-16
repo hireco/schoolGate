@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+#guestbook_side {
+	float: right;
+	width: 238px;
+	padding:0px;
+	border:none;
+	margin-bottom:0px;
+}
+
+#guestbook_div {
+   float: right;
+   width: 720px;
+   padding:0px;
+   margin-right:10px;
+   border:1px solid #AACCEE;
+}
+#guestbook_hint {
+   padding:10px;
+   text-indent:50px;
+   border-bottom:1px dashed #AACCEE;
+}
+#guestbook_form .form_item {
+	margin-left: 100px;
+	padding: 10px;
+}
+
+#guestbook_form .form_item input.error {
+    border:1px solid red;
+}
+
+#guestbook_form .top_type {
+	width: 50px;
+	margin-right: 2px;
+}
+
+#guestbook_form .sub_type {
+	width: 50px;
+	margin-left: 2px;
+}
+
+#guestbook_form .guest_captcha {
+	width: 60px;
+}
+
+#guestbook_form .guest_name {
+	width: 60px;
+}
+
+#guestbook_form .guest_telephone {
+	width: 100px;
+}
+
+#guestbook_form .guest_topic {
+	width: 400px;
+}
+
+#guestbook_form .guest_content {
+	width: 400px;
+	height: 100px;
+}

@@ -1,0 +1,132 @@
+* {
+	margin:0pt; 
+	padding:0pt;
+}
+.imgselect_div {
+    position:absolute;
+}
+div#upload_crop_pannel {
+    position:absolute;
+	left: 215px;	
+	top:  85px;
+	background-color:#ffffff;	
+	padding:20px;
+	border:10px solid #cccccc;
+	z-index:1001;
+}
+.close_pannel  { 
+	cursor:pointer; 
+	background-image: url(../images/closer.jpg);  
+	background-repeat: no-repeat; 
+	background-position:center; 
+	position:absolute; 
+	right:20px; 
+	top:20px; 	
+	width:20px; 
+	height:20px; 
+}
+.upload_crop_title {
+	float:left; 
+	height:39px; 
+	line-height:39px; 
+	margin-right:20px; 
+	font-size:16px; 
+	font-weight:bold;
+}
+.file_upload_div {
+	position:relative; 
+	width:145px; 
+	height:39px;
+	overflow:hidden;
+}
+.file_input {
+	z-index:10; 
+	position: absolute; 
+	left:0px; top:0px; 
+	width:145px; 
+	height:39px; 
+	text-align: right; 
+	-moz-opacity:0; 
+	filter:alpha(opacity: 0); 
+	opacity: 0;
+}
+.image_input { 	
+	position: absolute;
+	z-index:2;
+	left:0pt; 
+	top:0pt;
+}
+.demo {
+	float:left;
+	background-color: #eeeeff; 
+	border: 1px solid #ddddee; 
+	padding: 0.6em;  
+	margin-top:5px;
+}
+.instructions { 
+	font-size: 110%; 
+	font-weight: bold; 
+	padding-left: 0.2em; 
+	padding-bottom: 0.6em; 
+	margin: 0.3em auto; 
+}
+.frame { 
+	background-image: url(../images/cool_loader.gif);  
+	background-repeat: no-repeat; 
+	background-position:center; 
+	background-color: #ffffff; 
+	padding: 0.4em; 
+	border: 1px solid #dddddd;
+	
+}	
+.frame img {
+	display:block;	 
+	vertical-align:middle;
+	float:left;	  
+} 
+.thumbnail_infor {
+	float:left; 
+	padding-left:10px; 
+	padding-right:10px; 
+	display:none; 
+	height:39px; 
+	line-height:39px; 
+	margin-left:20px; 
+	background-color:#efefef;
+}
+.save_thumbnail  {
+	color:#efefef; 
+	font-weight:bold;  
+	cursor:pointer; 
+	background-color:#ffcd76;
+	height:37px;
+	line-height:37px;
+	border:1px solid #A52A2A;
+}
+.transparent {
+	filter:alpha(opacity: 0); 
+	opacity: 0;
+	-moz-opacity:0;
+}
+#photo_uploaded {
+	float:left;
+    margin-right:20px;
+	margin-bottom:10px;
+}
+#preview_column{
+	float:left;
+}
+.hide {
+	display:none;
+}
+.float_left {
+	float:left;
+}
+.clear_both{
+	clear:both;
+}
+.width_at_least_500 {
+    width:500px;
+	float:left;
+	margin-bottom:5px;
+}

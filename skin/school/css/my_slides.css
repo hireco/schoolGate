@@ -1,0 +1,134 @@
+@CHARSET "UTF-8";
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	left:0px;
+	z-index:1;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:970px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:970px;
+	height:250px;
+	display:block;
+}
+
+
+.slides_container div.slide img {
+    display:block;
+    width:970px;
+    height:250px;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:85px;
+	left:5px;
+	width:29px;
+	height:44px;
+	display:block;
+	z-index:5;
+	filter: alpha(opacity =   35);
+	-moz-opacity: 0.35;
+	opacity: 0.35;
+}
+
+#slides .next {
+	left:936px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	position:absolute;
+	right:20px;
+	top:50px;
+	z-index:5;
+	margin:-36px auto 0;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0px;
+	padding-top:12px;
+	background-image:url(../images/pagination.png);
+	_background-image:url(../images/pagination.gif);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+	_background-position:0 -13px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index:3;
+	position:absolute;
+	bottom:-40px;
+	left:0;
+	height:40px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:970px;
+	text-shadow:none;
+	text-align:left;
+}
+
+.caption .p1 {
+    font-size:1.1em;
+	line-height:1.1em;
+	font-weight:bold;
+	color:#dedede;
+	margin-bottom:5px;
+}
+
+.caption .p2 {
+    font-size:1em;
+	line-height:1em;
+	color:#999999;
+	text-indent:10px;
+}

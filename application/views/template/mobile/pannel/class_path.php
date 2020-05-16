@@ -1,0 +1,1 @@
+<li><a href="<?php echo $this_path; ?>"><?php echo $cur_name; ?></a></li>

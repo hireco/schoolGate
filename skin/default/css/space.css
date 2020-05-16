@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+.space_div {
+   border:1px solid #dedede;
+   margin:10px 0 10px 0;
+   padding:20px;
+}
+
+.space_div .left_column {
+	float: left;
+	width: 200px;
+	text-align:center;
+}
+
+.space_div .right_column {
+	float: left;
+	width:697px;
+	margin-left: 10px;
+	text-align: left;
+	padding-left: 20px;
+	border-left: 1px dashed #dedede;
+}
+
+.space_banner {
+    background-image: url(../images/space_banner.jpg);
+    background-repeat:no-repeat;
+    background-position:left top;
+    height:43px;
+    border-bottom:1px solid #dedede;
+}
+
+.space_div .my_avatar img {
+	padding: 3px;
+	border: 1px solid #dedede;
+	margin: 10px;
+}
+
+.space_div .agent_record {
+	font-size: 0.83em;
+	line-height: 16px;
+	height: 16px;
+}
+
+.agent_record {
+	width: 125px;
+	text-align: center;
+	display: inline-block;
+}
+
+.agent_record .value {
+	display: inline-block;
+	width: 70px;
+	text-align: left;
+	color: gray;
+}
+
+.agent_record .title {
+	display: inline-block;
+	width: 50px;
+	text-align: left;
+	margin-right: 5px;
+}

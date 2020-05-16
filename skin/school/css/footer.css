@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+/*-----------footer风格-------------*/
+#footer {
+    padding-bottom:10px;
+}
+
+.footer_navi {	
+	height: 30px;
+	line-height: 30px;
+	background-color:#67A70B;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: tahoma;
+	text-indent:10px;
+}
+
+.footer_navi a, .footer_navi span {
+    display:block;
+	float:left;
+	height:30px;
+	line-height:30px;
+	color: #ffffff;
+	margin-right:5px;
+}
+
+.footer_text {
+	clear: both;
+	padding: 10px 10px 10px 10px;	
+	text-align: left;
+	background-color:#C7E2A0;
+	background-image: url(../images/d2code.png);
+	background-repeat:no-repeat;	
+	text-indent:76px; 	
+	background-position: 10px center;
+}
+
+.footer_text div {
+	margin-bottom: 5px;
+}
+
+.footer_text div span {
+	margin-right: 5px;
+}

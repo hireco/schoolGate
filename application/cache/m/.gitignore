@@ -1,0 +1,9 @@
+# 忽略所有文件
+*
+# 除了以下文件
+!.gitignore
+!.htaccess
+!index.html
+
+
+

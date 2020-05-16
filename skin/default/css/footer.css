@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+/*-----------footer风格-------------*/
+.footer_navi {
+    position:relative;
+	text-align:center;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	background-color:#5AA8FD;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: tahoma;
+}
+
+.footer_navi a , .footer_navi span{	     	
+	display:inline-block;
+	color: #ffffff;
+	line-height:30px;
+	height:30px;
+	margin-bottom:5px;
+	_margin-bottom:0px;
+	vertical-align:middle;
+}
+
+.footer_text {
+	clear: both;
+	padding: 10px;
+	text-align: center;
+	background-color: #DDE6F0;
+}
+
+.footer_text div {
+	margin-bottom: 5px;
+}
+
+.footer_text div span {
+	margin-right: 5px;
+}

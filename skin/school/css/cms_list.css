@@ -1,0 +1,130 @@
+@CHARSET "UTF-8";
+#sidebar {
+	float: right;
+	width: 238px;
+	padding:0px;
+	border:none;
+	margin-bottom:0px;
+}
+
+#mainbar_view {
+	float: right;
+	width: 700px;
+	margin-left: 10px;
+	text-align:left; 	
+}
+
+#mainbar {
+   float: right;
+   width: 720px;
+   padding:0px;
+   margin-left:10px;
+   border:1px solid #B7D6A3;
+   border-top:none;
+}
+
+#mainbar .class_head {
+   position:relative;	
+   height:31px;
+   background-position:center 1px;
+   background-image:url(../images/right_bg02.gif);
+   padding-left:120px;
+   text-align:left;
+}
+.class_head  .class_title{
+   position:absolute;
+   left:10px;
+   bottom:0px;
+   _bottom:-1px;
+   height:30px;
+   line-height:30px;
+   display:block;   
+   background-color:#ffffff;
+   padding-left:10px;
+   padding-right:10px;
+   border:1px solid #B7D6A3;
+   border-bottom:none;
+   font-size:13px;
+   font-weight:bold;
+}
+.class_head .child_class{
+   display:inline-block;
+   padding-top:5px;
+   height:16px;
+   line-height:16px;
+   margin-right:10px;
+}
+#mainbar .class_body {
+   padding:10px;
+   text-align:left;
+}
+.class_body  .list_entry {
+   position:relative;
+   border-bottom:1px dotted #dedede;
+   line-height:25px;
+   height:25px;
+}
+.list_entry a {   
+   position:absolute;   
+   left:10px;
+}
+
+.list_entry .entry_time {
+   color:gray;    
+   position:absolute;
+   right:10px;
+}
+.page_navigation {
+   margin-top:10px;
+   margin-bottom:10px;
+   margin-right:20px;
+   text-align:right;
+}
+.page_navigation span {
+   margin-right:10px;
+}
+.page_navigation a {
+	display: inline-block;
+	padding-left:3px;
+	padding-right:3px;
+	height: 18px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 18px;
+	border: 1px solid #666666;
+	margin-right: 3px;
+	margin-left:3px;
+	text-align: center;
+}
+
+.page_navigation a.current {
+	background-color: #666666;
+	color: #ffffff;
+}
+
+.page_navigation a:hover {
+	background-color: #666666;
+	color: #ffffff;
+}
+
+.part_header {
+    position:relative;
+    height:30px;
+    text-align:left;
+	margin-bottom:10px;
+}
+
+.part_header .name{
+	font-size:1.3em;
+	font-weight:bold;
+	color:#30329A;
+	padding:5px;
+	border-bottom:1px dashed #C4D8A5;
+	margin-bottom:10px;
+}
+
+.part_body {
+    padding:0px 20px 10px 20px;
+    text-align:left;
+	line-height:25px;
+}

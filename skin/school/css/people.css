@@ -1,0 +1,325 @@
+@CHARSET "UTF-8";
+
+#sidebar {
+	float: left;
+	width: 238px;
+	padding:0px;
+	border:none;
+	margin-bottom:0px;
+}
+
+#mainbar {
+	float: left;
+	width: 700px;
+	margin-left: 10px;
+}
+
+#edit_pannel {
+    float: left;
+	width: 700px;	
+	margin-bottom:10px;
+	text-align:left;
+}
+
+.part_header {
+    position:relative;
+    height:30px;
+    text-align:left;
+	margin-bottom:10px;
+}
+
+.part_header .name{
+	font-size:1.3em;
+	font-weight:bold;
+	color:#30329A;
+	padding:5px;
+	border-bottom:1px dashed #C4D8A5;
+	margin-bottom:10px;
+}
+
+.part_header .edit_link{
+	position:absolute;
+	right:10px;
+}
+
+.edit_link a {
+    margin-right:10px;
+    border:1px solid #C2D5A1;
+    background-color:#C2D5A1;
+    padding:3px;
+    color:#ffffff;
+}
+
+.edit_link a:hover {
+    color:#999999;
+}
+
+.part_body {
+    padding:0px 20px 10px 20px;
+    text-align:left;
+}
+.ucfirst_list {
+    margin:10px auto;
+	text-align:center;
+}
+.ucfirst_list a{
+    margin-right:8px;
+	text-decoration:underline;
+	color:blue;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#people_list .uclist {
+	border-top: 1px dashed #C4D8A5;
+}
+
+#people_list .current {
+    background-color: #E5ECE3;
+}
+
+#people_list .pclass {
+    float:left;
+	width:40px;
+	text-align:center;
+}
+
+#people_list .plist {
+    float:left;
+	width:620px;
+}
+
+.ucfirst {
+    font-size:14px;
+	color:blue;
+	font-weight:bold;
+	line-height:25px;
+}
+
+.person_link {
+    float:left;
+    display:block;
+	width:62px;
+	line-height:25px;
+}
+
+.left_column {
+   float:left;
+   width:150px;
+   margin-right:10px;
+   padding:20px;
+}
+
+.right_column {
+   float:left;
+   width:450px;
+   text-align:left;
+   padding-top:20px;
+}
+
+.avatar_div{
+    width:144px;
+    height:160px;    
+    padding:4px;
+	border: solid;
+	border-color: #eee #ddd #ddd #eee;
+	border-width: 1px 2px 2px 1px;
+}
+
+.avatar_div .thumb_wrapper {
+	display: block;
+	width: 144px;
+	height: 160px;
+	overflow: hidden;
+	background-color: #333333;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../images/img_loader.gif);
+	vertical-align: middle;
+}
+
+.avatar_div .thumb_wrapper img {  
+    height:160px;
+    display:block;
+    margin:0 auto;
+}
+
+.rescale img {    
+	width:144px;
+}
+
+.item_list {
+    line-height:25px;
+}
+.item_list .tag {
+	font-weight:bold;
+}
+
+.item_list .cont {
+    margin-right:10px;
+}
+
+.item_list a {
+    text-decoration:underline;
+    color:blue;
+}
+
+.details_list {
+    padding:20px;
+}
+
+.details_list .detail_item {
+    font-size:1.2em;
+    font-weight:bold;
+    padding-bottom:5px;
+    border-bottom:1px dashed #C4D8A5;
+    margin-bottom:10px;
+}
+
+.details_list .detail_cont {
+    padding-left:20px;
+	line-height:18px;
+    margin-bottom:10px;
+}
+
+.form_header {
+    font-size:1.2em;
+	font-weight:bold;
+	color:#30329A;
+	padding:5px;
+	border-bottom:1px dashed #C4D8A5;
+	margin-bottom:10px; 
+	height:20px;
+}
+
+.page_form .left_part {
+    float:left;
+    width:400px;
+}
+
+.page_form .right_part {
+    float:right;
+    margin:0px 60px 0px 20px;
+    width:186px;
+    height:160px;
+    overflow:hidden;
+}
+
+.right_part .my_avatar {
+    height:120px;
+    width:186px;
+    overflow:hidden;
+    margin:0px 0px 5px 0px;
+    position:relative;
+}
+
+.my_avatar  img {  
+    width:186px;
+    display:block;
+    position:absolute;
+    bottom:0px;
+}
+
+.page_form dl {
+	clear: both;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+.page_form dl dt,.page_form dl dd {
+	float: left;
+	margin-right: 10px;
+	height:25px;
+	line-height:25px;
+}
+
+.page_form dl dt {
+    width:100px;
+    text-align: right;
+}
+
+.page_form dl dd {
+	position: relative;
+	text-align:left;
+}
+
+.page_form dd input.enterbox {
+	height: 19px;
+	line-height: 22px;
+	padding: 2px;
+	margin-right: 10px;
+	border: 1px solid #d5d8d1;
+	font-size: 12px;
+	font-family: Helvetica;
+	color:#666666;
+	width:150px;
+}
+
+.page_form .radio {
+    margin-right:5px;
+}
+
+.page_form dd input.keywords {
+	width: 250px;
+}
+
+.page_form dd input.shortarea {
+	width: 80px;
+}
+
+.page_form dd textarea.medium_enterarea {
+    width:380px;
+    height:100px;
+    border: 1px solid #d5d8d1;
+    padding:2px;
+    font-family: Tahoma, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 12px;
+}
+
+.page_form .span_button {
+    text-decoration:underline;
+    cursor:pointer;
+    color:blue;
+    margin-left:10px;
+}
+
+.page_form dd span {
+	display:inline-block;
+    height:25px;
+	line-height:25px;
+}
+
+.page_form dd.dd_span {
+    height:120px;
+} 
+
+.page_form .dd_span  span{
+    display:inline-block;
+    vertical-align:top;
+}
+
+.page_form .dd_span  span.span_textarea{
+    height:100px;
+}
+
+.page_form .dd_span  span.delete_item{
+	cursor: pointer;
+	background-image: url(../images/icon_delete.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20px;
+	width: 20px;
+}
+
+.page_form .index_no {
+    margin-right:5px;
+}
+
+#upload_pannel #upload_close{
+	background-image: url(../images/closer.jpg);
+}
+
+#upload_pannel a.progressCancel {	
+	background-image: url(../images/cancelbutton.gif);
+}

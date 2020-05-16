@@ -1,0 +1,1 @@
+<div class="page_navi hide">您的位置：<a href="<?php echo base_url();?>">首页</a><?php echo $path;?></div>

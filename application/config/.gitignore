@@ -1,0 +1,7 @@
+# 忽略以下文件
+config.php
+database.php
+
+
+
+
