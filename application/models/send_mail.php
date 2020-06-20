@@ -20,9 +20,9 @@ class Send_mail extends CI_Model {
        	   
        $mail_set=array(
          'SMTPServer'	        =>  'smtp.163.com',      //for 163, this is smtp.163.com		
-         'SMTPServerUserName'	=>	'snellings',         //for 163, this only needs account					
-         'SMTPServerPassword'	=>	'kennedyisafool',  				 
-         'MailFrom'			    =>	'snellings@163.com', 
+         'SMTPServerUserName'	=>	'YourAccount',         //for 163, this only needs account					
+         'SMTPServerPassword'	=>	'password',  				 
+         'MailFrom'			    =>	'YourAccount@163.com', 
          'smtpport'             =>  25,
          'mailtype'             =>  'HTML',       	
        	 'MailtoAddress'	    =>  $email,		
