@@ -36,4 +36,4 @@ Server Script: PHP above version 5.6
 5.Setting the admin account and you're done installing.
  
 # Developer
-[Oldbig](https://hioldbig.github.io)
+[Reco](https://hireco.github.io)
